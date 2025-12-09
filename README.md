@@ -1,4 +1,4 @@
-# Startup Notes
+# Start
 
 > Notes for Startups.
 

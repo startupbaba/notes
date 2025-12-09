@@ -5,8 +5,10 @@ url: notes.startupbaba.com
 favicon: favicon.ico
 
 start:
-  # Uncomment the next line to try Retype Pro features
-  # pro: true
+  pro: true
+
+nav:
+  mode: stack
 
 branding:
   title: Startup Baba
@@ -15,11 +17,15 @@ branding:
   # logo: oinam-logo.svg
   # logoDark: oinam-logo.svg
 
-# links:
-#   - text: Contact
-#     link: https://oinam.com/contact
-#     icon: mail
-#     target: self
+links:
+  - text: Source
+    icon: mark-github
+    link: http://github.com/startupbaba/notes
+    target: blank
+  - text: Twitter
+    icon: mention
+    link: https://x.com/startupbaba
+    target: blank
 
 # footer:
 #   copyright: "&copy; Copyright [Oinam](https://oinam.com) (2003 - {{ year }})"
