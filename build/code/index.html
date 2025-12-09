@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.818598777054">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.11.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Code or No/Low Code</title>
+    <meta name="title" content="Code or No/Low Code">
+    <meta name="description" content="ClickHouse is a fast and resource efficient open-source database for real-time apps and analytics.">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://notes.startupbaba.com/build/code/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://notes.startupbaba.com/build/code/">
+    <meta property="og:title" content="Code or No/Low Code">
+    <meta property="og:description" content="ClickHouse is a fast and resource efficient open-source database for real-time apps and analytics.">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://notes.startupbaba.com/build/code/">
+    <meta property="twitter:title" content="Code or No/Low Code">
+    <meta property="twitter:description" content="ClickHouse is a fast and resource efficient open-source database for real-time apps and analytics.">
+
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
+
+    <link href="../../favicon.ico" rel="icon">
+    <link href="../../resources/css/retype.css?v=3.11.0.818598777054" rel="stylesheet">
+
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.818598777054" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.818598777054" data-turbo-eval="false" defer></script>
+
+    <style>
+    a.docs-powered-by {
+      transform: translateX(-150vw);
+    }
+    </style>
+</head>
+<body>
+    <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
+        <div class="absolute bottom-0 left-0" style="top: 5rem; right: 50%"></div>
+    
+        <header id="retype-header" class="sticky top-0 z-30 flex w-full h-16 bg-header-bg border-b border-header-border md:h-20">
+            <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton retype-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="retype-sidebar-left-toggle-button"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                            <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">Startup Baba</span>
+                        </a><span id="retype-branding-label" class="inline-flex mt-1 px-2 py-1 ml-4 text-xs font-medium leading-none items-center rounded-md bg-branding-label-bg text-branding-label-text ring-1 ring-branding-label-border ring-inset md:inline-block">Notes</span>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block border-base-border"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav id="retype-header-nav" class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+                            <input class="w-full h-10 placeholder-search-placeholder transition-colors duration-200 ease-in bg-search-bg border border-transparent rounded md:text-sm hover:border-search-border-hover focus:outline-none focus:border-search-border-focus" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
+                        </div>
+        
+                        <!-- Mobile search button -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placeholder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="retype-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+    
+        <div id="retype-container" class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-sidebar-left-bg border-sidebar-left-border sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton">
+            
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-filter-bg border border-filter-border rounded shadow-none text-sm focus:outline-none focus:border-filter-border-focus" type="text" placeholder="Filter">
+                </div>
+            
+                <div class="pl-6 mt-1 mb-4">
+                    <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                    <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                </div>
+            
+                <div class="shrink-0 mt-auto bg-transparent dark:border-base-border">
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-base-border">
+            
+                        <a class="flex items-center justify-center flex-nowrap h-16 text-gray-350 dark:text-dark-400 hover:text-gray-600 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                            <span class="text-xs whitespace-nowrap">Powered by</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                        </a>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 bg-body-bg">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="retype-markdown" id="retype-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="retype-sidebar-right-toggle"></div>
+                                <!-- Page content  -->
+<doc-anchor-target id="code-or-nolow-code" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#code-or-nolow-code">#</doc-anchor-trigger>
+        <span>Code or No/Low Code</span>
+    </h1>
+</doc-anchor-target>
+<doc-anchor-target id="platform">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#platform">#</doc-anchor-trigger>
+        <span>Platform</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://clickhouse.com">ClickHouse</a> is a fast and resource efficient open-source database for real-time apps and analytics.</li>
+<li><a href="https://commoncrawl.org">Common Crawl</a> maintains an open repository of web crawl data that can be accessed and analyzed by anyone.</li>
+<li><a href="https://directus.io">Directus</a> Power any project with a modern, open source data platform</li>
+<li><a href="https://fly.io">Fly.io</a> runs physical servers in cities close to your users.</li>
+<li><a href="https://www.gitpod.io">GitPod</a> Spin up fresh, automated dev environments for each task, in the cloud, in seconds.</li>
+<li><a href="https://hoppscotch.com">Hoppscotch</a> is an <a href="https://github.com/hoppscotch/hoppscotch">Open Source</a> API development platform ecosystem.</li>
+<li><a href="https://www.getlago.com">Lago</a> offers a self-hosted and cloud, scalable and modular architecture for metering and usage-based billing, at every stage of your company.</li>
+<li><a href="https://laudspeaker.com">LaudSpeaker</a> Open Source Cross-Channel Messaging. Email, Slack + more, automated. (<a href="https://github.com/laudspeaker/laudspeaker">source</a>)</li>
+<li><a href="https://www.nango.dev">Nango</a> - multi product integrations.</li>
+<li><a href="https://www.nocobase.com">NoCoBase</a> is a self-hosted and scalable <a href="https://github.com/nocobase/nocobase">open-source</a> no-code development platform to make digitalization faster, easier and cheaper.</li>
+<li><a href="https://github.com/novuhq/">Novu</a> is the open-source notification infrastructure.</li>
+<li><a href="https://opentofu.org">OpenTofu</a> is a fork of Terraform that is open-source, community-driven, and managed by the Linux Foundation.</li>
+<li><a href="https://overturemaps.org">Overture</a> is for developers who build map services or use geospatial data.</li>
+<li><a href="https://pocketbase.io">PocketBase</a> Open Source backend for your next SaaS and Mobile app in 1 file.</li>
+<li><a href="https://radar.com">Radar</a> - Geofencing, geocoding, and maps, all in a single cost-effective platform.</li>
+<li><a href="https://supabase.com">Supabase</a> is an open source <a href="https://firebase.google.com">Firebase</a> alternative. Start your project with a Postgres database, Authentication, instant APIs, Edge Functions, Realtime subscriptions, and Storage.</li>
+<li><a href="https://www.fusio-project.org">Fusio</a> is an <a href="https://github.com/apioo/fusio">open source</a> API management platform which helps to create innovative API solutions.</li>
+</ul>
+<doc-anchor-target id="internal-tools--crud">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#internal-tools--crud">#</doc-anchor-trigger>
+        <span>Internal Tools / CRUD</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://retool.com">Retool</a></li>
+<li><a href="https://www.appsmith.com">AppSmith</a></li>
+<li><a href="https://www.tooljet.com">ToolJet</a> - Open-source low-code application development platform for   building and deploying business applications.</li>
+<li><a href="https://refine.dev">Refine</a> build React-based CRUD applications.</li>
+<li><a href="https://www.windmill.dev">WindMill</a> is an <a href="https://github.com/windmill-labs/windmill">open-source</a> Developer platform for APIs, critical jobs, workflows, data pipelines and UIs.</li>
+</ul>
+<doc-anchor-target id="customer-engagement">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#customer-engagement">#</doc-anchor-trigger>
+        <span>Customer Engagement</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://laudspeaker.com/">Laudspeaker</a> is an <a href="https://github.com/laudspeaker/laudspeaker">Open Source</a> Customer Engagement and Product Onboarding Platform.</li>
+<li><a href="https://www.limejourney.com">LimeJourney</a> helps you nudge users at just the right time with smart notifications. (<a href="https://github.com/LimeJourney/limeJourney/">source</a>)</li>
+<li><a href="https://www.mautic.org">Mautic</a>: <a href="https://github.com/mautic/mautic">Open Source</a> Marketing Automation Software.</li>
+</ul>
+<doc-anchor-target id="auth--sso">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#auth--sso">#</doc-anchor-trigger>
+        <span>Auth / SSO</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://authjs.dev">Auth.js</a> is an open source community project.</li>
+<li><a href="https://ssoready.com">SSOReady</a> is an <a href="https://github.com/ssoready/ssoready">open-source</a> dev tools for enterprise SSO.</li>
+<li><a href="https://stack-auth.com">Stack</a> the <a href="https://github.com/stackframe-projects/stack">open-source</a> user management service.</li>
+<li><a href="https://stytch.com">Stytch</a> The authentication and authorization toolkit for developers.</li>
+<li><a href="https://supertokens.com">SuperTokens</a> (<a href="https://github.com/supertokens">source</a>)</li>
+</ul>
+<doc-anchor-target id="ops--devops">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ops--devops">#</doc-anchor-trigger>
+        <span>Ops &amp; DevOps</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://infisical.com">Infisical</a> is an Open Source, End-to-End Encrypted, tool that lets you securely sync secrets and configs across your team, devices, and infrastructure.</li>
+<li><a href="https://macminicolo.net">Macminicolo</a>hosts Macs in multiple high-end data centers.</li>
+<li><a href="https://www.macminivault.com">MacMini Vault</a> Enterprise Mac Hosting.</li>
+<li><a href="https://towncrier.readthedocs.io/">TownCrier</a> Manage the release notes for your project. (<a href="https://github.com/twisted/towncrier">source</a>)</li>
+<li><a href="https://windmill.dev">WindMill</a> Build endpoints, workflows &amp; ETLs, UIs with code only where it matters</li>
+</ul>
+<doc-anchor-target id="charts">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#charts">#</doc-anchor-trigger>
+        <span>Charts</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://echarts.apache.org">Apache ECharts</a> is an Open Source JavaScript Visualization.</li>
+<li><a href="https://www.chartmogul.com">ChartMogul</a></li>
+<li><a href="https://chartbrew.com">Chart Brew</a></li>
+</ul>
+<doc-anchor-target id="monitoring">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#monitoring">#</doc-anchor-trigger>
+        <span>Monitoring</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://oneuptime.com">OneUpTime</a> OpenSource Status Page, Monitoring, and Incident Response Platform. (<a href="https://github.com/oneuptime/oneuptime">source</a>)</li>
+<li><a href="https://updown.io">UpDown</a> is a simple &amp; inexpensive website monitoring.</li>
+<li><a href="https://onlineornot.com">OnlineOrNot</a></li>
+<li><a href="https://www.openstatus.dev">OpenStatus</a> <a href="https://github.com/openstatusHQ/openstatus">source</a> - they also have <a href="https://astro.openstat.us">Astro Status</a> <a href="https://github.com/openstatusHQ/astro-status-page">source</a></li>
+<li><a href="https://github.com/bluewave-labs/checkmate">Checkmate</a> is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations.</li>
+</ul>
+<doc-anchor-target id="scrappers">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#scrappers">#</doc-anchor-trigger>
+        <span>Scrappers</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="http://noodlejs.com">Noodle</a> is a Node.js server and module for querying and scraping data from web documents.</li>
+<li><a href="https://github.com/mattsse/voyager">Voyager</a> crawl and scrape web pages in rust</li>
+<li><a href="https://github.com/jmcarp/robobrowser">RoboBrowser</a> - Your friendly neighborhood web scraper</li>
+<li><a href="https://github.com/ruipgil/scraperjs">Scraperjs</a> is a web scraper module that make scraping the web an easy job.</li>
+<li><a href="https://simplescraper.io">SimpleScraper</a> download instantly, scrape at scale in the cloud, or create an API, without codes.</li>
+<li><a href="https://scrapingfish.com">ScrapingFish</a></li>
+</ul>
+<doc-anchor-target id="lowno-code">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#lowno-code">#</doc-anchor-trigger>
+        <span>Low/No Code</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://bubble.io">Bubble</a></li>
+<li><a href="https://backstage.io">Backstage</a></li>
+<li><a href="https://www.framer.com">Framer</a></li>
+<li><a href="https://www.illacloud.com">IllaCloud</a> is a low-code platform for developers to build internal tools in minutes.</li>
+<li><a href="https://uify.io">UIFy</a></li>
+<li><a href="https://noloco.io">NoLoCo</a> Instantly create customer portals, partner apps &amp; internal tools from your Airtable or Google Sheets.</li>
+<li><a href="https://steinhq.com">Stein</a> a freemium service to use Google Sheets as a back-end database.</li>
+<li><a href="https://pocketbase.io">PocketBase</a> is an <a href="https://github.com/pocketbase/pocketbase">open-source</a> backend in 1 file.</li>
+<li><a href="https://www.podia.com">Podia</a> build websites, sell courses and digital products, and host communities.</li>
+<li><a href="https://potion.so">Potion</a> Create custom Notion websites in minutes.</li>
+<li><a href="https://super.so">Super</a> Create a website in less than a minute that’s easy to manage and looks great, with instant page loads, SEO optimization, and no-code.</li>
+<li><a href="https://www.softr.io">Softr</a> Turn your Airtable or Google Sheets into client portals, partner apps or internal tools.</li>
+<li><a href="https://appflowy.io">AppFlowy</a> (<a href="https://github.com/AppFlowy-IO/appflowy">source</a>) is an open-source alternative to Notion. You are in charge of your data and customizations.</li>
+<li>Database
+<ul>
+<li><a href="https://baserow.io">Baserow</a> Open source no-code database and Airtable alternative.</li>
+<li><a href="https://www.getgrist.com">Grist</a> is a modern, <a href="https://github.com/gristlabs">open source</a> spreadsheet that goes beyond the grid.</li>
+<li><a href="https://leaptable.co">Leaptable</a> is the fastest way to build, deploy, and manage LLM-powered agents on tabular data (dataframes, SQL tables and Spreadsheets). (<a href="https://github.com/peterwnjenga/leaptable">source</a>)</li>
+<li><a href="https://www.nocodb.com">NoCodeDB</a> is an <a href="https://github.com/nocodb/nocodb">open source</a> NoCode platform that turns any database into a smart spreadsheet.</li>
+<li><a href="https://www.retable.io">Relatable</a> Turn your spreadsheets into smart database apps.</li>
+<li><a href="https://seatable.io/">Seatable</a> As simple as Excel, with the power of a database.</li>
+<li><a href="https://teable.io">Teable</a>  is an <a href="https://github.com/teableio/teable">open-source</a> No-code database - Postgres Airtable Fusion.</li>
+<li><a href="https://www.undb.xyz">UnDB</a> Private first, unified, self-hosted no code database. (<a href="https://github.com/undb-xyz/undb">source</a>)</li>
+</ul>
+</li>
+<li>User &amp; Members Communities
+<ul>
+<li><a href="https://circle.so">Circle</a> The all-in-one community platform for creators &amp;  brands.</li>
+<li><a href="https://tribe.so">Tribe</a> A customizable community platform for businesses.</li>
+<li><a href="https://www.outseta.com">Outseta</a> All-in-one membership software. Outseta gives founders the tools to monetize their website, SaaS product, or online community in minutes.</li>
+<li><a href="https://nas.io">Nas.io</a> is an easy way to start, run, and scale your online community.</li>
+<li><a href="https://www.mightynetworks.com">Mighty</a></li>
+<li><a href="https://www.outverse.com">Outverse</a></li>
+</ul>
+</li>
+<li>Forms
+<ul>
+<li><a href="https://formbricks.com">Formbricks</a> is an <a href="https://github.com/formbricks/formbricks">Open Source</a> Survey Suite.</li>
+<li><a href="https://heyform.net">HeyForm</a> is an <a href="https://github.com/heyform/heyform">open-source</a> form builder that allows anyone to create engaging conversational forms for surveys, questionnaires, quizzes, and polls.</li>
+<li><a href="https://paperform.co">PaperForm</a></li>
+<li><a href="https://sendfly.io">SendFly</a> $15 /year for everything unlimited.</li>
+<li><a href="https://snoopforms.com">Snoop Forms</a> (the Open Source TypeForm alternative)</li>
+<li><a href="https://www.surveymonkey.com">Survey Monkey</a></li>
+<li><a href="https://tally.so">Tally</a></li>
+<li><a href="https://www.typeform.com">Typeform</a></li>
+</ul>
+</li>
+<li>Info
+<ul>
+<li><a href="https://ip.guide">IP Guide</a> is your guide to internet numbers.</li>
+</ul>
+</li>
+<li>Search
+<ul>
+<li><a href="https://www.algolia.com">Algolia</a></li>
+<li><a href="https://www.meilisearch.com">MeiliSearch</a> An open-source, lightning-fast search engine.</li>
+<li><a href="https://typesense.org">Typesense</a> an Open Source Alternative to Algolia.</li>
+</ul>
+</li>
+<li>Support
+<ul>
+<li><a href="https://deepchat.dev">Deep Chat</a> is an <a href="https://github.com/OvidijusParsiunas/deep-chat">open-source</a> fully customizable AI chat component for your website.</li>
+<li><a href="https://www.chatwoot.com">ChatWoot</a> is an <a href="https://github.com/chatwoot/chatwoot">Open-Source</a> live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc.</li>
+<li><a href="https://laudspeaker.com">LaudSpeaker</a> is an <a href="https://github.com/laudspeaker/laudspeaker">open source</a> customer engagement platform.</li>
+</ul>
+</li>
+<li>Visualization
+<ul>
+<li><a href="https://www.metabase.com">Metabase</a></li>
+<li><a href="https://superset.apache.org">Superset</a> is an open-source modern data exploration and visualization platform.</li>
+</ul>
+</li>
+</ul>
+<doc-anchor-target id="ar--vr">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ar--vr">#</doc-anchor-trigger>
+        <span>AR / VR</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><a href="https://github.com/NativeVision/viro">ViroReact</a> is a library for developers to rapidly build augmented reality (AR) and virtual reality (VR) experiences.</li>
+</ul>
+<doc-anchor-target id="references">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#references">#</doc-anchor-trigger>
+        <span>References</span>
+    </h4>
+</doc-anchor-target>
+<ul>
+<li><a href="https://calmcode.io">Calm Code</a> video tutorials for modern ideas and open source tools.</li>
+<li><a href="https://htmlhead.dev">Head</a> A free guide to HTML5 <code v-pre>&lt;head&gt;</code> elements</li>
+</ul>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+                            </div>
+                            <footer id="retype-content-footer" class="clear-both">
+                            
+                                <nav id="retype-nextprev" class="print:hidden flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../build/automation/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-base-text-muted">Previous</span>
+                                                <span class="block mt-1">Automation</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../build/data/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
+                                                <span class="block mt-1">Data</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div id="retype-page-footer" class="print:border-none border-t border-base-border pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between print:justify-center">
+                                <div id="retype-footer-links" class="print:hidden">
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div id="retype-copyright" class="print:justify-center py-2 text-footer-text font-footer-link-weight text-sm leading-relaxed"></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-sidebar-right-bg border-sidebar-right-border lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-skeleton-bg rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="retype-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Code or No/Low Code", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+</body>
+</html>
