@@ -1,0 +1,27 @@
+input: .
+output: .retype
+
+url: notes.startupbaba.com
+favicon: favicon.ico
+
+start:
+  # Uncomment the next line to try Retype Pro features
+  # pro: true
+
+branding:
+  title: Startup Baba
+  label: Notes
+
+  # logo: oinam-logo.svg
+  # logoDark: oinam-logo.svg
+
+# links:
+#   - text: Contact
+#     link: https://oinam.com/contact
+#     icon: mail
+#     target: self
+
+# footer:
+#   copyright: "&copy; Copyright [Oinam](https://oinam.com) (2003 - {{ year }})"
+
+# poweredByRetype: false

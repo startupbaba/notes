@@ -1,0 +1,79 @@
+# Investors
+
+Publicly available list of Investors. These are listed `as is` and there will be overlaps. The suggestion would be to make your own [FundRaising CRM](https://docs.google.com/spreadsheets/d/173ZDJOy3NFLzktzE9PY0t94HliIO6IDZGIZaSULa9N0/) from these lists and focus on your stage, geography, industry, and your own specific focus.
+
+- [100+ Prominent Pension Funds](https://app.folk.app/shared/100-most-prominent-pension-funds-GOeBVaQfOccDyP10pyh2GrmMFcf0UzOi)
+- [100+ VC Funds in the UK](https://app.folk.app/shared/All-companies-2mideB7XWyZzKRCr0w0Ydw6TZsu2ekkB)
+- [100+ VCs investing in SaaS](https://app.folk.app/shared/100-VC-firm-Investing-In-SaaS-eBQ61SEn13lP1A06ONpjdYyrI1dbgmT3)
+- [200+ US AI Angel Investors](https://app.folk.app/shared/250-IA-Angel-Investors-pADZ5I7l6GqfZrTvXpziT0JCdLMuyTns)
+- [All VCs](https://app.folk.app/shared/US-VCs-oc71Oi94yB9vwbfh1XWIQPHTAGQE7FQ1) (2000+ mostly USA)
+- [300+ Australian Early-Stage Investors](https://app.folk.app/shared/+300-Australian-Early-Stage-Investors-iqQ0GprcHdHhscNEJ7Ph8bv9m3ViHAUv)
+- [350+ most active Angel Investors in USA](https://app.folk.app/shared/+350-most-active-Angel-Investors-in-USA-jOLUPZiPY4Ddv0WTJSXbtawkOk9smewT)
+- [400+ US VCs](https://app.folk.app/shared/US-VCs-oc71Oi94yB9vwbfh1XWIQPHTAGQE7FQ1)
+- [4WARD Climate Investors](https://4ward.vc/climate-investor-overview/) (view on [AirTable](https://airtable.com/appxrEAiMKtrbpWRH/shrpbmSGmclpGLvKk/tbljdMeJZ7HbP07g3))
+- [700+ Venture Capitalists](https://www.fundz.net/venture-capital-firms)
+- [750+ Seed Funds](https://app.folk.app/shared/The-Ultimate-List-of-750+-Seed-Funds-9nq0OLsg2GD7Xjeervb2LmsyBsRaoKkl)
+- [Active Investor List](https://docs.google.com/spreadsheets/d/1tugiIXvkprHMrtLX15GC5ZryXX2g0y3RQzmP7B2KCFw/) by Trace Cohen
+- [Active Pre-Seed Investors](https://airtable.com/appXJdMe8st7T8K7q/shrSPNzYoSRhJBCbv/tbl216CjzNssfsDpB)
+- [Active VCs](https://airtable.com/appYlRDIZLwvRPsRh/shrkohpeE2AO2ldeq/tbl5Q8N7NuW22z5Bt)
+- [African Angels](https://docs.google.com/spreadsheets/d/1I0pbsz5Zfsnlp821UM4fcwgVxk4ojMw2SQl5ktIzxQ0/)
+- [Accelerators by number of investments](https://app.folk.app/shared/All-accelerators-rw0kuUNqtzl6j6dDQquoZTYF6MFKIQHo)
+- [All Climate VC's](https://app.folk.app/shared/All-Climate-VC%27s-FO6SqW28YRiyTptlKjKZsP1LQ3bsm9kN)
+- [Angel Investors from Diverse Backgrounds](https://airtable.com/app3vlECCxsoA0I2Q/shrNoRaOvuL9YPGd1/tblqGWGDzEwf8OnGL)
+- [Angels](https://angels.firstround.com/) by First Round
+- [Angels](https://vcstack.com/angels.html), [VC](https://vcstack.com/venture-capitalists.html) by VC Stack
+- [Awesome open-source VCs](https://github.com/CrowdDotDev/awesome-oss-investors)
+- [Best family offices around the world](https://app.folk.app/shared/Family-Offices%27-Founders-I4z0LFbIhsQDbROUydXD1Eou9mvwIydC)
+- [Climate Capital](https://climatescape.org/capital/) from ClimateScape
+- [Connect - Investors](https://connect.visible.vc/investors) at Visible.VC
+- [Consumer Tech Investors around the World](https://app.folk.app/shared/Consumer-Tech-Investors-around-the-world-wAABHKwuBJwVIywTQXQfmeBFIlH52mZA)
+- [Corporate venture arms](https://app.folk.app/shared/Corporate-Venture-Arms-INCBA2h5vhjU4fUgoIjFDF2LzhUw6NDz)
+- [Data Investors In Asia](https://app.folk.app/shared/Data-Investors-In-Asia-QoncCeUGlZRwm1ITNEJ0kvre3X7jV2VW)
+- [Deep Tech Investors](https://docs.google.com/spreadsheets/d/1BqNO7l4kXRhjG5jcB89FwRlhuRKBwBKtV7ZHwwLjPhk/)
+- [Deep Tech Investors Mapping - Public version](https://docs.google.com/spreadsheets/d/1BqNO7l4kXRhjG5jcB89FwRlhuRKBwBKtV7ZHwwLjPhk/) by [Hello Tomorrow](https://hello-tomorrow.org)
+- [Early Stage India Angel Investors](https://app.folk.app/shared/Early-Stage-Angel-Investors-1ce7gQ9AtU5OhKfBsGQOIXbnlXudUv3h)
+- [Early Stage Venture Funds - India](https://airtable.com/appRGXvo8Fw5eQtZ3/shrXceaiWM7mDxSDU/tblfqAJhWCLKTC5kt/viwkwR6wAHuMnSZQj)
+- [Early Stage Web 3 US Investors](https://app.folk.app/shared/Early-Stage-Web-3-US-Investors-mqkYyzucURVhDCNRArmUHmz48h91UBnM)
+- [EdTech Investors in Asia](https://app.folk.app/shared/EdTech-Investors-In-Asia-PC0OCM23KyjpulLjp4ulgq6roZStSYdy)
+- [Euro Tech VC Funds](https://docs.google.com/spreadsheets/d/1cRdFZhXLqat04xe7qO-p48wXQ00GWJyrzgHSb3YVIp0/) (from 1/2016)
+- [Family Offices investing Pre-Seed](https://airtable.com/app3iFeihxOixsUlf/shrWjYGLAHKETll5B/tblOCFaxHvjb8etrV)
+- [FoodTech Investors](https://airtable.com/appXQfiwpHFCoRunu/shrV2xlxgzUycjA6S/tblozf5EEO1yt66kh)
+- [Gen AI Investors In Asia](https://app.folk.app/shared/Gen-AI-Investors-In-Asia-OjkkMaVbXKeCK4XJWtt1hwNmpS8mqSnO)
+- [Gritt](https://www.gritt.io) - Search for Angel Investors
+- [HealthTech Venture Investor Database](https://airtable.com/shrdqT0dM0vaIeO9u/tblyAK2VE4dS8O4dZ/viwiaTchRnMLqZqsS)
+- [Impact Investors](https://impactassets.org/ia50/)
+- [Investors](https://airtable.com/apph9tTMHZwV2BwWX/shrSHRMum8oJmDjFJ/tblQIsXHKoY0EtXO7) (Australia)
+- [Investor DB](https://mercury.com/investor-db) by Mercury
+- [Investor List](https://airtable.com/shrkohpeE2AO2ldeq/tbl5Q8N7NuW22z5Bt) from Docsend
+- [Investors, accelerators, and resources](https://www.airtable.com/universe/expzgDgsO8QLDmvdt/list-of-investors-accelerators-and-resources-supporting-underrepresented-founders-and-funders)  supporting underrepresented founders and funders - curated by [Anna Phan](https://www.linkedin.com/in/annaphan/)
+- [Investors Who Don’t Hate Travel](https://docs.google.com/spreadsheets/d/1fD9cXnxe_zMKCRKouqUa-DugTNRAeN6rdfeaOOI6w-A/)
+- [Les VC Francais - 399 options pour lever des fonds](https://app.folk.app/shared/French-VC%27s-mD2puZZ9RyakVW7ATq6VaFaFme7Cjjf9)
+- [List of Angel Networks](https://www.mountsideventures.com/list-of-angel-networks)
+- [Mercury’s Investor Database](https://mercury.com/investor-database)
+- [Most prolific investment firms](https://app.folk.app/shared/Most-prolific-investment-firms-(number-of-investments)-yDyehm4HbYaro0BqfL9j99RA8I0t0BG5) (number of investments)
+- [New VC funds at / below $200M](https://docs.google.com/spreadsheets/d/1ebGZ6-ivf_3woBGC4Kz_3217DhjGsefoRu_5iP3nuFQ/)
+- [No Warm Intro Required](https://airtable.com/appS9cG0ccqmQM111/shrsDIW1FMuA5cI9P/tblaahhCCc2v0065Q/viwdm9nLc4Aj3sHJO)
+- [NYC Early Stage VC Firms](https://airtable.com/appLi1yNqogms6CJS/shrWa2dHIwRjTTKwF/tblafXgz5pMd7w3Mn/viwg5FrKTjsTjlB3e?blocks=hide)
+- [Open Investor Database](https://investors.papermark.io/) from Papermark
+- [Pre-Seed Angel Investors in France](https://app.folk.app/shared/Pre-Seed-Angel-Investor-in-France-uUEIR4cXc3wiSmdsc9m9wCf7lBYPAyGJ)
+- [SaaS Angel Investors](https://airtable.com/app3iFeihxOixsUlf/shruI4jrfruuYyT87/tblVgubAZM7rDibub) (Global)
+- [SaaS Investors](https://ventroduce.com/investor-index)
+- [Seed & Series A US VC's](https://app.folk.app/shared/Seed-and-Series-A-US-VC%27s-b6PIuvmTQF7Mdj4sM4TM1wbsP69DwQP0)
+- [Seed Checks](https://www.seedchecks.com)
+- [Shareable VC List](https://airtable.com/appDRBo3C0PfB0bYB/shrjqWLBMA9OR2IUr/tblVk6Dg6tBUeNIbT) by [Jake Vander Ploeg](https://www.linkedin.com/in/jake-vander-ploeg-59652426/)
+- [Superangel | The Baltics - VC database](https://airtable.com/appZlSZ7bSZeSHOnl/shrHvHjExnm3tFb4X/tblUdpjiyqtQCtiuR)
+- [Stonks’ Active & Influential Angel Investors of 2022](https://stonks.com/angels)
+- [The Investor Database](https://www.mountsideventures.com/investor-network) by Mountside Ventures
+- [The Ultimate List of 750+ Seed Funds](https://docs.google.com/spreadsheets/d/1VVr-z3ujLzWZGHX3-3C9C9dBVtnjALa3_cr1xGlDPmE/) by Matt Estes
+- [Top 300 Angel Investors in Middle East](https://app.folk.app/shared/Top-300-Angel-Investors-in-Middle-East-VVO9GzjSYl8wi6WMwIrsBC9EFhKAegYZ)
+- [Unsorted](https://airtable.com/shrCBp3nTD14XU6uS/tblnnbgnMuvE62BYI)
+- [US Founders who invest in others as Angels](https://airtable.com/app3iFeihxOixsUlf/shrhhH3j52CyXkIP9/tblpqS8tBdY8kzmxX)
+- [US Women Angels](https://airtable.com/appytsOoxXWmjvQ2R/shrzWIHSoK0gvE82D/tble9siT6RDtZNc39)
+- [VC and Angel Investor Database](https://ramp.com/investor-database/vc-angel-list) from Ramp
+- [VC Fund Database for Early-Stage Startups](https://www.airtable.com/universe/expFo1yNQPYwhey5n/vc-funds-for-early-stage-startups)
+- [VC investing in India](https://app.folk.app/shared/VC-investing-in-India-YM4App0M23dLbYAocwPY3gMRPHR8VXkX)
+- [VC Sheet](https://www.vcsheet.com) curated sheets of VC funds and investors.
+- [VCs in New York](https://www.nycfounderguide.com/investors)
+- [VCList.Online - Seed VC firms list](https://airtable.com/appEiB4b7MNJewjMK/shrSzDjgven00vRbF/tblANHX4C3gb31BL6/viwfYshJTDAeClxHh)
+- [Venture Capital investors in the Netherlands](https://goldeneggcheck.com/en/venture-capital-investors/)
+- [Worldwide ICO or Crypto Angel Investors](https://docs.google.com/spreadsheets/d/1SJEYef7U3j75d9Z4t967Ta6jlRVQcubGJqy-gPuWFY4/)
