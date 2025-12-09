@@ -1,22 +1,20 @@
 # Start
 
-> Notes for Startups.
-
 ![Helping Startups during the chaotic zero stage.](/assets/img/hero-1.jpg "Start")
 
 So, you have decided to Startup! Welcome, but it isn't going to be easy. Starting and running a Startup is like eating broken glasses; after a while, you begin to like the taste of your blood.
 
 Remember, in the beginning, you have to do things - everything.
 
-- Who's going to write the first code or use a no-code tool to do it -- you.
-- Who's going to make the coffee/tea -- you.
-- Who is going to clean that toilet -- bloody you.
+- Who's going to write the first code or use a no-code tool to do it — you.
+- Who's going to make the coffee/tea — you.
+- Who is going to clean that toilet — bloody you.
 
 ---
 
 The resources, tools, and utilities are targeted at Startups from the idea to the seed stage, with an aim to raise venture funding. We believe that once you hit your priced round, such as a Series-A and beyond, you will have the resources to care for your needs.
 
-> “Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do.” -- Steve Jobs
+> “Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do.” — Steve Jobs
 
 ## Other Cool Quotes I had in mind. ;-)
 
@@ -50,7 +48,3 @@ The content here is somewhat random and unorganized. You must figure out and pic
 - [Techstars Entrepreneur's Toolkit](https://toolkit.techstars.com) is an online educational resource to help you learn the fundamentals of entrepreneurship and accelerate your success.
 - [Third Derivative & New Energy Nexus / RMI Startup Resources](https://docs.google.com/spreadsheets/d/1mHj6rm_7pMThv6dcemgfpF8k1j5Cq7BiW33yAOo8WC0/) is a spreadsheet of Startup resources maintained by [Third Derivative](https://www.third-derivative.org).
 - Wing’s [Founder Docs](https://www.wing.vc/docs)
-
-## Contribute
-
-The content on `docs.startupinbox.com` are open source. [Contributions](https://github.com/inboxstartup/docs/pulls) are welcome. Everything is always `Work-in-Progress` and `things are always changing`.
