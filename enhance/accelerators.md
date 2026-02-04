@@ -1,9 +1,12 @@
 # Accelerators
 
+- [43North](https://43north.org)
+- [50+ Startup Accelerators](https://www.growthmentor.com/blog/best-startup-accelerators/) (Sorted by Countries)
 - [500](https://500.co)
 - [A list of 1000+ Accelerators](https://app.folk.app/shared/All-accelerators-rw0kuUNqtzl6j6dDQquoZTYF6MFKIQHo)
 - [a16z - Speedrun](https://a16z.com/games/speedrun/)
 - [Accel Atoms](https://atoms.accel.com/)
+- [Afore Capital - Founder in Residence](https://www.afore.vc/residence)
 - [AI Grant](https://aigrant.com)
 - [AI2 Incubator](https://www.ai2incubator.com) by [Allen Institute for AI](https://allenai.org)
 - [Alchemist](https://www.alchemistaccelerator.com)
@@ -12,6 +15,8 @@
 - [Berkeley SkyDeck](https://skydeck.berkeley.edu)
 - [Betaworks Camp](https://www.betaworks.com/camp)
 - [BoostVC](https://www.boost.vc)
+- [BreakThrough](https://breakvc.com)
+- [Collaborative Fund AIR AI Residency](https://air.collabfund.com) NYC-based startup residency.
 - [Completely Free Tech Accelerators](https://versatilevc.com/free/accelerators/) (no equity, no cash cost) - a list maintained by [Versatile VC](https://versatilevc.com).
 - [Conviction Embed](https://embed.conviction.com)
 - [Entrepreneur First](https://www.joinef.com)
@@ -19,26 +24,34 @@
 - [Founders, Inc](https://f.inc)
 - [Founder Institute](http://fi.co)
 - [Founders Boost](https://www.foundersboost.com)
+- [Founder University](https://founder.university)
 - [Google for Startups](https://startup.google.com)
 - [Greylock Edge](https://greylock.com/edge/)
 - [HF0](https://www.hf0.com)
 - [Intel Ignite](https://intelignite.com)
 - [LAUNCH](https://www.launch.co)
+- [Latitud](https://latitud.com) is the first-check for LatAm founders.
+- [Lightspeed’s Launch](https://lsvp.com/launch/)
 - [MassChallenge](https://masschallenge.org)
 - [NEO](https://neo.com/accelerator)
+- [Network School](https://ns.com) is a frontier community for techno-optimists.
 - [OpenAI Startup Fund](https://www.openai.fund)
 - [Pear](https://pear.vc)
 - ~~[Pioneer](https://pioneer.app)~~
 - [Seed Accelerators](https://www.seed-db.com/accelerators) a tabular data of Accelerators, with their HQ, funding, etc.
 - [Seedcamp](https://seedcamp.com)
+- [SeedClub](https://www.seedclub.xyz/getfunded/accelerator)
 - [Sequoia Arc](https://www.sequoiacap.com/arc/)
+- Sequoia [Surge](https://www.surgeahead.com) is a rapid scale-up program for startups in India and Southeast Asia.
 - [Soma Fellows](https://somafellows.com)
 - [SOSV](https://sosv.com)
 - [South Park Commons](https://www.southparkcommons.com)
+- [Startup Bootcamp](https://startupbootcamp.org)
 - [Startup Wise Guys](https://startupwiseguys.com)
 - [Tech Startup Accelerators and Applications](https://taskablehq.com/blog/taskable-guide-startup-accelerators)
 - [TechStars](https://www.techstars.com)
+- [Telora](https://telora.com) is the fellowship that helps hackers start startups.
 - [The Mint](https://www.btv.vc/the-mint) accelerator by [Better Tomorrow Ventures](https://btv.vc)
+- [Village Global Velocity](https://www.villageglobal.com/velocity) program for pre-seed founders.
 - [Y Combinator](https://www.ycombinator.com)
-- Sequoia [Surge](https://www.surgeahead.com) is a rapid scale-up program for startups in India and Southeast Asia.
-- The [50+ Best Startup Accelerators](https://www.growthmentor.com/blog/best-startup-accelerators/) in the World (Sorted by Country)
+- [Z Fellows](https://www.zfellows.com) 1 week. $10,000.
