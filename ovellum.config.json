@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ovellum.oss.oinam.com/schema/ovellum.config.schema.json",
+  "name": "startupbaba-notes",
+  "mode": "manual",
+  "input": ".",
+  "output": "_site",
+  "site": {
+    "title": "Startup Baba",
+    "description": "Resources, tools, and utilities for Startups — from the idea to the seed stage.",
+    "baseUrl": "https://notes.startupbaba.com",
+    "search": { "enabled": true },
+    "ignoreFolders": ["node_modules", "_site", ".git", ".github", ".claude", ".obsidian"],
+    "defaultTheme": "auto",
+    "palette": "eink",
+    "favicon": "/favicon.ico",
+    "footer": "Startup Baba — Notes",
+    "footerNav": [
+      { "label": "Source", "href": "https://github.com/startupbaba/notes", "external": true },
+      { "label": "X", "href": "https://x.com/startupbaba", "external": true }
+    ]
+  }
+}

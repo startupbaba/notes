@@ -1,0 +1,13 @@
+{
+  "name": "startupbaba-notes",
+  "description": "Startup Baba Notes — built with Ovellum.",
+  "private": true,
+  "scripts": {
+    "dev": "ovellum dev",
+    "build": "ovellum build",
+    "check": "ovellum check"
+  },
+  "devDependencies": {
+    "ovellum": "^0.10.0"
+  }
+}
