@@ -1,7 +1,5 @@
 # Start
 
-![Helping Startups during the chaotic zero stage.](/assets/img/hero-1.jpg "Start")
-
 So, you have decided to Startup! Welcome, but it isn't going to be easy. Starting and running a Startup is like eating broken glasses; after a while, you begin to like the taste of your blood.
 
 Remember, in the beginning, you have to do things - everything.
